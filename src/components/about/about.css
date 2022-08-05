@@ -75,6 +75,7 @@
 }
 
 @media screen and (max-width: 1024px){
+    
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -88,9 +89,11 @@
     .about__content{
         margin: 1rem 0 1.5rem;
     }
+
 }
 
 @media screen and (max-width: 600px){
+
     .about__me{
         width: 65%;
         margin: 0 auto 3rem;
@@ -108,4 +111,5 @@
     .about__content p{
         margin: 1.5rem 0;
     }
+    
 }

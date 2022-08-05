@@ -31,3 +31,43 @@ nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+@media screen and (max-width: 1024px){
+    
+    nav{
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.5rem 1.7rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    nav{
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.5rem 1rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+        
+}

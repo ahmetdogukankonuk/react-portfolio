@@ -12,12 +12,12 @@
 
 :root{
     /* Theme Colors */
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #000000;
+    --color-bg-variant: #14213d;
+    --color-primary: #e5e5e5;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #ffff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: #e5e5e5;
 
     --transition: all 400ms ease;
 

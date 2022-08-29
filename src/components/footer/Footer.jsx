@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer id='footer'>
       <a href="#" className='footer__logo'>
-        ADK
+        Jane Doe
       </a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; ADK LLC. All rights reserved.</small>
+        <small>&copy; Jane Doe LLC. All rights reserved.</small>
       </div>
     </footer>
   )
